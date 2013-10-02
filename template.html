@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Template</title>
+        <style type="text/css" media="screen">
+            html, body, h1, h2, h3, h4, h5, h6 {
+                font-family: monospace; font-size:15px;
+            }
+            body { width: 79ch; }
+            h1,h2,h3,h4,h5,h6 { font-weight: normal; }
+            h1,h2 { text-align:center; }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div>===============================================================================</div>
+            <div>M.Christiansen <span style="float:right">$DOW$</span><br></div>
+            <div> martinmch.com <span style="float:right">$MONTH$ $DATE$,
+                    $YEAR$</span><br>
+            </div>
+            <div style="text-align:center"> $POSTTITLE$ </div>
+            <div>===============================================================================</div>
+        </header>
+        <main>
+            
+            $BODY$
+
+        </main>
+        <footer>
+            <div style="text-align: right">
+                URL: <a href="$URL$">$URL$</a>
+            </div>
+            <div style="text-align: right"> 
+                Copyright © 1994-2020 by M. Christiansen
+            </div>
+            <div style="text-align: right">Updated: $UPDATETIMESTAMP$</div>
+        </footer>
+    </body>
+</html>
